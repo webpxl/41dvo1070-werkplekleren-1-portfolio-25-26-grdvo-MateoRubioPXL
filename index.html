@@ -1,243 +1,246 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8"></meta>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-    ></meta>
+  <title>Portfolio - Mateo Rubio</title>
 
-    <title>Portfolio - Mateo Rubio</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    ></link>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@300;400;700&display=swap"
-        rel="stylesheet"
-    ></link>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <link
-        rel="stylesheet"
-        href="style.css"
-    ></link>
-
-    <script src="main.js"></script>
+  <!-- JS -->
+  <script defer src="main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark navbar-retro fixed-top">
-        <div class="container-fluid">
-            <a
-                class="navbar-brand d-flex align-items-center"
-                href="#home"
-            >
-                <span
-                    class="brand-logo me-2"
-                    aria-hidden="true"
-                ></span>
 
-                <span class="brand-text">MATEO</span>
-            </a>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-md fixed-top custom-navbar">
+  <div class="container">
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <a class="navbar-brand" href="#home">
+      <span class="brand-logo"></span>
+      <span class="brand-text">MATEO</span>
+    </a>
 
-            <div
-                class="collapse navbar-collapse"
-                id="mainNavbar"
-            >
-                <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center">
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#home"
-                        >Home</a>
-                    </li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#about"
-                        >About Me</a>
-                    </li>
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+      <ul class="navbar-nav nav-links">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hard-skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#skills"
-                        >Skills</a>
-                    </li>
+  </div>
+</nav>
 
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#projects"
-                        >Projects</a>
-                    </li>
-                </ul>
-            </div>
+<main class="container">
+
+  <!-- HOME -->
+  <section id="home" class="text-center">
+    <h1>Hi, I am <strong>Mateo Rubio</strong></h1>
+    <p class="lead">
+      Student & web developer focused on building practical, user-friendly digital experiences.
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-12">
+        <div class="panel-card">
+          <div class="section-label mb-3">ABOUT</div>
+
+          <p>
+            I live in Belgium and study Digital Design at PXL in Hasselt.
+            I am a social, curious and driven person with a strong focus
+            on web development.
+          </p>
+
+          <p>
+            I enjoy building practical solutions that people actually use.
+            During my studies, I have gained experience in HTML, CSS,
+            JavaScript and design tools such as Photoshop and Illustrator.
+          </p>
+
+          <p class="mb-0">
+            Outside of school, I value time with family and friends,
+            enjoy sports—especially basketball—and like to stay active
+            and motivated.
+          </p>
         </div>
-    </nav>
+      </div>
+    </div>
+  </section>
 
-    <main class="container">
-        <section
-            id="home"
-            class="text-center"
-        >
-            <div class="py-5">
-                <h1 class="display-6">
-                    Hi, I am
+  <!-- WHY ME -->
+  <section id="why-me">
+    <div class="panel-card">
+      <div class="section-label mb-3">WHY ME?</div>
 
-                    <strong>Mateo Rubio</strong>
-                </h1>
+      <p>
+        I am passionate about web development and motivated to learn
+        something new every day.
+      </p>
 
-                <p class="lead">
-                    Student & web developer — welcome to my portfolio.
-                </p>
-            </div>
-        </section>
+      <p>
+        My goal is to become a full-stack developer and contribute
+        to meaningful projects that have real impact.
+      </p>
 
-        <section id="about">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">ABOUT</div>
+      <p class="mb-0">
+        I enjoy working in teams, communicating clearly,
+        and taking on challenges that push me to improve.
+      </p>
+    </div>
+  </section>
 
-                        <p>
-                            Hi i live in Belgium. I study Digitale vormgeving In the PXL in Hasselt.
+  <!-- PERSONAL ACTIVITIES -->
+  <section id="personal-activity">
+    <div class="panel-card">
+      <div class="section-label mb-3">PERSONAL ACTIVITIES</div>
+      <ul>
+        <li>Weight lifting</li>
+        <li>Gaming</li>
+        <li>Traveling</li>
+      </ul>
+    </div>
+  </section>
 
-I would say i am a very social person. My main skill is web development i am better in development than i am in design.
+  <!-- HARD SKILLS -->
+  <section id="hard-skills">
+    <div class="panel-card">
+      <div class="section-label mb-3">HARD SKILLS</div>
 
-I would say i am a very curious person and i am very driven. I love working on useful projects. Things that are actually gonna be used by many people.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="skills-grid">
+        <div class="skill-item">
+          HTML / CSS<br><small>Advanced</small>
+        </div>
+        <div class="skill-item">
+          JavaScript<br><small>Intermediate</small>
+        </div>
+        <div class="skill-item">
+          Python<br><small>Intermediate</small>
+        </div>
+        <div class="skill-item">
+          Bootstrap<br><small>Advanced</small>
+        </div>
+        <div class="skill-item">
+          Photoshop<br><small>Intermediate</small>
+        </div>
+        <div class="skill-item">
+          Illustrator<br><small>Intermediate</small>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section id="personal-activity">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">PERSONAL ACTIVITY</div>
+  <!-- SOFT SKILLS -->
+  <section id="soft-skills">
+    <div class="panel-card">
+      <div class="section-label mb-3">SOFT SKILLS</div>
+      <ul>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem solving</li>
+        <li>Adaptability</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
+  </section>
 
-                        <p>Sports weight lifting</p>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label mb-4">PROJECTS</div>
 
-                        <p>Gaming</p>
+    <div class="projects-grid">
 
-                        <p>Traveling</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Portfolio Website</h3>
+          <span>Personal</span>
+        </div>
+        <p>
+          My personal portfolio focused on responsive layout,
+          accessibility and clean UI.
+        </p>
+        <ul>
+          <li>Mobile-first design</li>
+          <li>Bootstrap grid</li>
+          <li>Custom CSS styling</li>
+        </ul>
+        <div class="project-tech">HTML · CSS · Bootstrap</div>
+      </div>
 
-        <section id="hard-skills">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">HARD SKILLS</div>
+      <div class="project-card">
+        <div class="project-header">
+          <h3>School Scripting Project</h3>
+          <span>School</span>
+        </div>
+        <p>
+          Takeaway website developed during my studies at PXL,
+          including JavaScript interactions.
+        </p>
+        <ul>
+          <li>Dynamic content</li>
+          <li>Responsive layout</li>
+          <li>Custom UI</li>
+        </ul>
+        <div class="project-tech">HTML · CSS · JavaScript</div>
+      </div>
 
-                        <div class="skills-grid">
-                            <div class="skill-item">HTML / CSS</div>
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Basketball Sport Day</h3>
+          <span>Leadership</span>
+        </div>
+        <p>
+          Organized a full basketball sports day at Sportschool Hasselt,
+          managing teams and activities.
+        </p>
+        <ul>
+          <li>Team coordination</li>
+          <li>Event planning</li>
+          <li>Live matches</li>
+        </ul>
+        <div class="project-tech">Leadership · Teamwork · Organization</div>
+      </div>
 
-                            <div class="skill-item">JavaScript</div>
+    </div>
+  </section>
 
-                            <div class="skill-item">Blender</div>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="panel-card text-center">
+      <div class="section-label mb-3">CONTACT</div>
+      <p>
+        Feel free to reach out if you want to collaborate or
+        have any questions.
+      </p>
+      <a class="btn btn-outline-warning mt-2" href="mailto:mateo.rubio@telenet.be">
+        mateo.rubio@telenet.be
+      </a>
+    </div>
+  </section>
 
-                            <div class="skill-item">Adobe Photoshop</div>
+</main>
 
-                            <div class="skill-item">Adobe Illustrator</div>
+<footer class="text-center py-4">
+  <small>© 2026 Mateo Rubio · Built with HTML, CSS & Bootstrap</small>
+</footer>
 
-                            <div class="skill-item">Python</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="soft-skills">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">SOFT SKILLS</div>
-
-                        <ul>
-                            <li>Communication</li>
-
-                            <li>Teamwork</li>
-
-                            <li>Adaptability</li>
-
-                            <li>Listening</li>
-
-                            <li>Problem solving</li>
-
-                            <li>Leadership</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">PROJECTS</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">SCHOOL</div>
-
-                        <p>School projects</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">PERSONAL</div>
-
-                        <p>Personal projects</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="p-4 panel-card">
-                        <div class="section-label mb-3">CONTACT</div>
-                        <p>
-                            Feel free to reach out to me via email at
-                            <a href="mailto:mateo.rubio@telenet.be">mateo.rubio@telenet.be</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
