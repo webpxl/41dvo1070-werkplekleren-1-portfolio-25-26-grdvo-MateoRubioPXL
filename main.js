@@ -14,3 +14,12 @@ cards.forEach(card => {
   card.style.transform = 'translateY(20px)';
   observer.observe(card);
 });
+// Smooth scroll for navbar links
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+

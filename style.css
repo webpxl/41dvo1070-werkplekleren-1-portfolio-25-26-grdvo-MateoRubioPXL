@@ -209,6 +209,16 @@ ul li::before {
 .project-item small {
   opacity: 0.7;
 }
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-link:hover {
+  color: inherit;
+}
+
 
 /* =====================
    FOOTER
@@ -308,3 +318,5 @@ footer {
   font-size: 12px;
   opacity: 0.7;
 }
+
+
