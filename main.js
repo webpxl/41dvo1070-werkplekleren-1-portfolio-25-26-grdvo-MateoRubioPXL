@@ -1,4 +1,4 @@
-// Animate content panels on scroll
+
 const cards = document.querySelectorAll('.content-panel');
 
 const observer = new IntersectionObserver(
